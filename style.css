@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+}
+.top {
+    display: flex;
+    background-image: url(./ressources/coffee-break-1177540_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    font-size: 2em;
+    color: white;
+}
+
+.club {
+    font-size: 3em;
+    color: white;
+    background-color: rgba(56,157,180,0.8);
+    opacity: 0.9;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.accueil {
+    background-color: #389DB4;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    height: 7vh;
+    display: flex;
+    align-items: center;   
+}
+
+.a1 {
+    font-size: 2em;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    flex-grow: 5;
+    padding-left: 3%;
+}
+
+.a2, .a3, .a4, .a5{
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.accueil2 {
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center; 
+}
+
+.b1 {
+    color: #389DB4;
+    font-size: 2em;
+    font-weight: 800;
+    text-decoration: none;
+    flex-grow: 5;
+    padding-left: 3%
+}
+
+.b2 {
+    color: white !important;
+    padding-right: 110px;
+}
+
+.b2, .b3, .b4, .b5 {
+    color: #389DB4;
+    font-size: 1.5em;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.mid {
+    display: flex;
+    background-color: #C7ECF6;
+    justify-content: space-between;
+    color: white;
+}
+
+.titre {
+    background-color: #389DB4;
+    width: 25vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 15vh;
+    padding: 5vh
+}
+
+h3 {
+    display: flex;
+    margin: 10px;
+    padding-top: 1vh;
+}
+
+.paragraphe {
+    margin: 20px;
+}
+
+.text {
+    font-weight: 100;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.photo {
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.nosmembres {
+    display: flex;
+    justify-content: center;
+    background-color: #389DB4;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.membres {
+    border: solid white;
+    color: white;
+    text-align: center;
+    padding-top: 2vh;
+    width: 34vh;
+    padding-right: 5vh;
+    padding-bottom: 2vh;
+    padding-left: 5vh;
+}
+
+.mid2 {
+    background-color: #C7ECF6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    height: 70vh;
+      
+}
+
+.logo {
+    width: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.box1 {
+    display: flex;
+    gap: 20vh;
+    justify-content: space-around;
+}
+
+.box2 {
+    display: flex;
+    gap: 20vh;
+    justify-content: space-around;
+}
+
+.backgroundblue {
+    background-color: #C7ECF6;
+    height: 15vh;
+}
+
+.mid3 {
+    height: 100vh;
+    background-image: url(./ressources/student-849826_1920.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.titre2 {
+    display: flex;
+}
+
+.clubaffaire {
+    background-color: #389DB4;
+    color: white;
+    width: 60vh;
+    padding: 4vh;
+}
+
+.clubaffairetext {
+    font-size: 1.2em;
+    padding: 3vh;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    padding-top: vh;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contactez {
+    color: #389DB4;
+    font-size: 2em;
+    padding-top: 8vh;
+    padding-bottom: 3vh;
+    padding-left: 50vh;
+}
+
+.noms {
+    border: 0 solid;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10vh;
+}
+
+.c1, .c2{
+    display: flex;
+    gap: 5vh;
+    width: 50vh;
+}
+
+.d1{
+    width: 30vh;
+}
+
+.d2{
+    width: 65vh;
+}
+
+.d3{
+    margin-bottom: 0px!important;
+}
+
+.d4{
+    border: 0px;
+    color: white;
+    background-color: #389DB4;
+    width: 15vh;
+    height: 5vh;
+}
+
+.c6{
+    padding-right: 10vh;
+}
+
+.c7{
+    padding-top: 10vh;
+    padding-left: 30vh;
+}
+
+.info{
+    color: grey;
+    font-size: 0.9em;
+}
+
+.info1{
+    color: #389DB4;
+    font-size: 0.9em;
+}
+
+.foot{
+    background-color: #389DB4;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mention{
+    display: flex;
+    gap: 10vh;
+}
+.copyrigth{
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .top {
+        height: auto;
+        width: auto;
+    }
+    .mid {
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
